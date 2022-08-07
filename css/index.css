@@ -6,6 +6,9 @@ p {
     display: block;
     margin: auto;    
 }
+.card-img-top {
+    height: 150px;
+}
 .card:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -20,6 +23,9 @@ p {
     box-shadow: 0px 0px 0px 5px rgba(233,235,237,0.25);
  
 }
+.card {
+    margin: 12px auto;
+}
 
 @media only screen and (min-width: 985px){
     h1 {
@@ -27,5 +33,17 @@ p {
     }  
     .section__my-block img {
         float: right;      
-    }    
+    }
+    .card {
+        margin: 12px;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;    
+        color: white;
+        text-align: center;
+    }
+
 } 
