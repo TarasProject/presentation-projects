@@ -1,6 +1,9 @@
 p {
     font-size: 1em;
 }
+.btn-video {
+    background-color: #ff0000 ;
+}
 .section__my-block img {
     width: 100px;
     display: block;
